@@ -18,9 +18,9 @@ on:
 jobs:
   build:
     name: Running Units Tests
-    runs-on: ubuntu-latest
-      steps:
-      - name: Checkout code
+      runs-on: ubuntu-latest
+        steps:
+          - name: Checkout code
         - uses: action/checkout@v2
       - name: Use Node.js
         - uses: action/setup-node@v2
