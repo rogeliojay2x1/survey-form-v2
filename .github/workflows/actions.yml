@@ -7,7 +7,6 @@ on:
       - develop
       - feature/*
       - bugfix/*
-      - main/*
   push:
     branches: 
       - master
